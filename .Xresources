@@ -1,0 +1,4 @@
+xterm*faceName: Bitstream Vera Serif Mono
+xterm*faceSize: 11
+xterm*vt100*geometry: 80x60
+xterm*termName: xterm-256color
