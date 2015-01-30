@@ -384,6 +384,33 @@
                      'str redmondb1@yahoo.com'</command>
       </action>
     </keybind>
+    <keybind key="W-A-b">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Browser</name>
+        </startupnotify>
+        <command>x-www-browser</command>
+      </action>
+    </keybind>
+    <keybind key="W-A-k">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Browser</name>
+        </startupnotify>
+        <command>keepassx</command>
+      </action>
+    </keybind>
+    <keybind key="W-A-t">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Terminal</name>
+        </startupnotify>
+        <command>x-terminal-emulator</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
