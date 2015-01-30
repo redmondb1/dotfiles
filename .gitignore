@@ -1,0 +1,14 @@
+.mono/
+KeePass/
+Trolltech.conf
+keepassx/
+pavucontrol.ini
+pulse/
+teamviewer10/
+transmission/
+update-notifier/
+user-dirs.*
+xfce4/
+gtk-2.0/
+dconf/
+chromium/
