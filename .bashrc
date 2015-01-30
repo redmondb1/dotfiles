@@ -1,3 +1,5 @@
+echo '.bashrc'
+
 shopt -s histappend
 shopt -s checkwinsize
 
