@@ -1,4 +1,6 @@
-echo '.bashrc'
+. ~/.env
+echo "$(date) bashrc" >>/tmp/profile_tracker
+export BASHRC=true
 
 shopt -s histappend
 shopt -s checkwinsize
