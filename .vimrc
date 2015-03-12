@@ -14,17 +14,28 @@ Bundle 'ldx/vim-indentfinder'
 Bundle 'vim-scripts/vimux'
 " remove white space on save
 Bundle 'gagoar/StripWhiteSpaces'
-" Change statusline color with mode
-Bundle 'vim-scripts/SmartusLine'
+" :Fw show lines containing word under cursor
+Bundle 'embear/vim-foldsearch'
+" powerline replacement
+Bundle 'bling/vim-airline'
+" shows what function you're in on status line, apt-get ctags
+Bundle 'majutsushi/tagbar'
+" shows git diff signs in gutter
+Bundle 'airblade/vim-gitgutter'
+" lots of git integration
+Bundle 'tpope/vim-fugitive'
+" darker color scheme
+Bundle 'nanotech/jellybeans.vim'
 call vundle#end()
 filetype plugin indent on
 
 syntax on
 set laststatus=2
-set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 let g:syntastic_aggregate_error=1
+let g:syntastic_check_on_open=1
 let g:syntastic_check_on_wq=0
 
+let g:gitgutter_realtime=1
 set textwidth=72
 set formatoptions+=t
 
