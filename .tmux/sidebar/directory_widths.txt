@@ -1,2 +1,3 @@
 /home/bredmond	40
 /home/bredmond/git/editshare-storage	40
+/home/bredmond/.config	40
